@@ -1,0 +1,23 @@
+{
+  "name": "ioctl-list",
+  "version": "0.1.0",
+  "description": "List of ioctl commands supported by platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cstruct/node-ioctl-list.git"
+  },
+  "author": "Albin Mattsson <albin@mattsson.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cstruct/node-ioctl-list/issues"
+  },
+  "homepage": "https://github.com/cstruct/node-ioctl-list#readme",
+  "dependencies": {
+    "bindings": "^1.2.1",
+    "nan": "^2.3.5"
+  }
+}
