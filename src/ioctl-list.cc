@@ -1,5 +1,96 @@
 #include "nan.h"
 
+#ifdef HAVE_SOCKET_H
+#include <asm-i386/socket.h>
+#endif
+#ifdef HAVE_TERMIOS_H
+#include <asm-i386/termios.h>
+#endif
+#ifdef HAVE_AX25_H
+#include <linux/ax25.h>
+#endif
+#ifdef HAVE_CDK_H
+#include <linux/cdk.h>
+#endif
+#ifdef HAVE_CDROM_H
+#include <linux/cdrom.h>
+#endif
+#ifdef HAVE_CM206_H
+#include <linux/cm206.h>
+#endif
+#ifdef HAVE_CYCLADES_H
+#include <linux/cyclades.h>
+#endif
+#ifdef HAVE_FD_H
+#include <linux/fd.h>
+#endif
+#ifdef HAVE_FS_H
+#include <linux/fs.h>
+#endif
+#ifdef HAVE_HDREG_H
+#include <linux/hdreg.h>
+#endif
+#ifdef HAVE_IF_EQL_H
+#include <linux/if_eql.h>
+#endif
+#ifdef HAVE_IF_PLIP_H
+#include <linux/if_plip.h>
+#endif
+#ifdef HAVE_IF_PPP_H
+#include <linux/if_ppp.h>
+#endif
+#ifdef HAVE_IPX_H
+#include <linux/ipx.h>
+#endif
+#ifdef HAVE_KD_H
+#include <linux/kd.h>
+#endif
+#ifdef HAVE_LP_H
+#include <linux/lp.h>
+#endif
+#ifdef HAVE_MROUTE_H
+#include <linux/mroute.h>
+#endif
+#ifdef HAVE_MSDOS_FS_H
+#include <linux/msdos_fs.h>
+#endif
+#ifdef HAVE_MTIO_H
+#include <linux/mtio.h>
+#endif
+#ifdef HAVE_NETROM_H
+#include <linux/netrom.h>
+#endif
+#ifdef HAVE_WIRELESS_H
+#include <uapi/linux/wireless.h>
+#endif
+#ifdef HAVE_SBPCD_H
+#include <linux/sbpcd.h>
+#endif
+#ifdef HAVE_SCC_H
+#include <linux/scc.h>
+#endif
+#ifdef HAVE_SCSI_H
+#include <linux/scsi.h>
+#endif
+#ifdef HAVE_SMB_FS_H
+#include <linux/smb_fs.h>
+#endif
+#ifdef HAVE_SOCKIOS_H
+#include <uapi/linux/sockios.h>
+#endif
+#ifdef HAVE_SOUNDCARD_H
+#include <linux/soundcard.h>
+#endif
+#ifdef HAVE_TIMERFD_H
+#include <linux/timerfd.h>
+#endif
+#ifdef HAVE_UMSDOS_FS_H
+#include <linux/umsdos_fs.h>
+#endif
+#ifdef HAVE_VT_H
+#include <linux/vt.h>
+#endif
+
 using namespace v8;
 using namespace node;
 
